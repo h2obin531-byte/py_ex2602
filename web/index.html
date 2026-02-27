@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>뉴스 제목 1</h1>
+    <p>기사 내용입니다 1</p>
+
+    <a href="https://www.naver.com/">네이버로 이동</a>
+
+    <div>
+        <h1 id="sub2" class="sub_2">뉴스 제목 2</h1>
+        <p> 기사 내용입니다 2</p>
+
+        <h1 id="sub22"class="sub_2 sub_2_2">뉴스 제목 2-2</h1>
+        <p>기사 내용입니다 2-2</p>
+    </div>
+
+    <style>
+        h1 {
+            color: blue;
+        }
+
+        div {
+            background-color: yellowgreen;
+        }
+
+        div > h1 {
+            color: red;
+        }
+
+        div > .sub_2_2 {
+            color: aqua;
+        }
+        #sub22 {
+            background-color: beige;
+        }
+    </style>
+</body>
+</html>
